@@ -1,0 +1,7 @@
+login Account: =>
+Email: develop@develop.com
+Pass: 12345678Develop
+
+
+Run the server: =>
+npm run develop
