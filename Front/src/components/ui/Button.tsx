@@ -11,7 +11,7 @@ const buttonVariants = cva(
         danger: "bg-red-900",
         cancel: "bg-gray-300 text-gray-700",
         outline:
-          "border border-black hover:text-[#7D8184] hover:border-[#7D8184] hover:border-black bg-transparent text-black",
+          "border border-black hover:text-[#7D8184] hover:border-[#7D8184] bg-transparent text-black",
       },
       size: {
         default: "p-3",

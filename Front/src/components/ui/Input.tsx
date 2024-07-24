@@ -7,9 +7,9 @@ const inputVariants = cva(
   {
     variants: {
       variant: {
-        default: "text-white shadow-lg rounded-lg px-3 py-3 text-md w-full bg-transparent",
-        danger: "border-[1px] border-red-300 text-black rounded-lg px-3 py-3 text-md w-full bg-white",
-        outline: "text-black shadow-lg rounded-lg px-3 py-3 text-md w-full bg-white",
+        default: "text-black shadow-lg rounded-lg px-3 py-3 text-md w-full bg-white",
+        danger: "border-[2px] border-red-300 text-black rounded-lg px-3 py-3 text-md w-full bg-white",
+        outline: "text-white shadow-lg rounded-lg px-3 py-3 text-md w-full bg-transparent",
       },
       fullWidth: {
         true: "w-full",
