@@ -14,7 +14,7 @@ const Footer = () => {
                     <p>Get 10% off your first order</p>
                     <div className="flex bg-black border border-white w-full md:w-fit rounded">
                         <input className="bg-black outline-none w-full md:w-auto" type="text" placeholder="Enter your email" />
-                        <img className="p-2" src="/Vector.png" />
+                        <img className="p-2" src="public/images/Vector.png"/>
                     </div>
                 </div>
 
@@ -51,14 +51,14 @@ const Footer = () => {
                     <p className="text-xs text-[#fafafa] font-medium opacity-70">Save $3 with App New User Only</p>
                     <div className="flex justify-center md:justify-start items-center gap-2">
                         <div className="w-20 h-20">
-                            <img className="w-full h-full object-contain" src="/qr.svg" alt="" />
+                            <img className="w-full h-full object-contain" src="public/images/qr.svg" alt="qr-code-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <div>
-                                <img src="/GooglePlay.svg" alt="" />
+                                <img src="public/images/GooglePlay.svg" alt="GooglePlay-image" />
                             </div>
                             <div className="w-[110px] h-10">
-                                <img className="w-full h-full object-contain" src="/appstore.svg" alt="" />
+                                <img className="w-full h-full object-contain" src="public/images/appstore.svg" alt="appstore-image" />
                             </div>
                         </div>
                     </div>
